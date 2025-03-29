@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="comment.css">
+</head>
+<body>
+   <div class="comment-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="comment-left">
+           <div class="comment-left-title">
+            <h2>Contact us</h2>
+            <hr>
+           </div>
+           <input type="hidden" name="access_key" value="9f34cf27-8f66-4dcb-a3f2-05c9d791f2a4">
+           <input type="text" name="name" placeholder="Your Name" class="comment-inputs" required>
+           <input type="email" name="email" placeholder="Your Email" class="comment-inputs" required>
+           <textarea name="message" placeholder="Your Message" class="comment-inputs" required></textarea>
+           <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+    </form>
+    <div class="comment-right">
+        <img src="assets/right_img.png" alt="">
+    </div>
+   </div>
+</body>
+</html>

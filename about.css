@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+@import url(https://fonts.googleapis.com/css?family=Tajawal);
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+body {
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 0;
+  background: linear-gradient(#ffdad5,#fff7f9);
+}
+
+
+.about {
+background-image: url("fish.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom:10px;
+}
+
+h1 {
+  font-family:'Righteous';
+  font-size:50px;
+  background-color: lightblue;
+  
+}
+
+span {
+font-size:20px;
+}
+
+p {
+width:540px;
+  display:inline-block;
+  vertical-align:middle;
+  padding-right:50px;
+  margin-top:40px;
+  padding-left:10px;
+  font-family:'Tajawal';
+}
+
+
+h3 {
+text-align:center;
+width:100%;
+font-size: 30px;
+font-weight:bolder;
+}
+
+h4 {
+  text-align: center;
+  font-weight: lighter;
+  font-family:'Tajawal';
+  font-size:18px;
+  width:100%;
+}
+button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border:none;
+    border-radius:50px ;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    align-items: center;
+}
+
+
+ img {
+  padding-bottom: 30px;
+ }
+
+ nav {
+  text-align: center;
+  margin-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.Contact{
+  background-color: #ff994f;
+  font-size: 15px;
+}
